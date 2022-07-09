@@ -15,10 +15,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #0499ff;
+  color: #01cdfe;
 }
 a:hover {
-  color: #6633ff;
+  color: #ff71ce;
 }
 
 /* Section Styles */
@@ -67,7 +67,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid rgb(253, 164, 105);
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -95,7 +95,7 @@ header .profile-image:hover {
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #01b3c0;
+  border-color: #01cdfe;
 }
 
 ul.skills {
@@ -106,14 +106,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #01cdfe;
+  color: black;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #ff71ce;
 }
 
 footer {
@@ -245,5 +245,5 @@ body {
 }
 
 .card2:hover {
-  border-color: #01b3c0;
+  border-color: #01cdfe;
 }
