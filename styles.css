@@ -15,10 +15,10 @@ body {
 
 a {
   text-decoration: none;
-  color: #01cdfe;
+  color: #999;
 }
 a:hover {
-  color: #ff71ce;
+  color: #6633ff;
 }
 
 /* Section Styles */
@@ -39,8 +39,11 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
+
 .nav .name {
-  display: none;
+    display: block;
+    margin-right: auto;
+    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -54,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/Tucson_desert.jpg') no-repeat top center ;
+  background: url('images/tucson-desert1mb.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -67,14 +70,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid rgb(253, 164, 105);
+  border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.6) rotate(720deg);
 }
 .tag {
-  background-color: #e2e2e2;
+  background-color: #efefef;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -83,7 +86,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: white;
+  color: yellow;
 }
 .card {
   margin: 30px;
@@ -93,6 +96,7 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  transition: all .5s;
 }
 .card:hover {
   border-color: #01cdfe;
@@ -107,7 +111,7 @@ ul.skills {
   border-radius: 6px;
   display: inline-block;
   background: #01cdfe;
-  color: black;
+  color: rgb(0, 0, 0);
   padding: 5px 10px;
   margin: 2px;
 }
@@ -124,7 +128,6 @@ footer {
 
 footer .copyright {
   top: -8px;
-  margin-right: 20px;
   font-size: .75em;
 }
 
@@ -145,11 +148,8 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .5;
-  transition: all .25s;
-}
-a.twitter {
-  background-image: url(images/twitter.svg);
+  opacity: .4;
+  transition: all .5s;
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
@@ -168,28 +168,26 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: flex;
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: flex; 
       max-width: 1200px;
+      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
 
   header {
-    min-height: 450px;
+    min-height: 470px;
   }
 
   .nav {
     max-width: 1200px;
+    padding: 0 30px;
   }
 
-  .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
-  }
 
   main {
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   main p {
@@ -204,46 +202,42 @@ a.social:hover {
 
 }
 
-h3 {
-    color: maroon;
-    letter-spacing: .5px
-}
-
 .card-title {
-    text-align: center;
-    border: solid black 3px;
-    border-radius: 10px;
-    margin-top: 50px;
-}
-
-.main-image {
-  border: solid 4px black;
-  border-radius: 50%;
-}
-
-h1 {
-  background-color: #e2e2e2;
-  padding: 5px;
-}
-
-.section-title {
-  text-transform: capitalize;
-}
-
-body {
-  font-family: "Arial";
+  text-align: center;
+  border: solid black 3px;
+  border-radius: 10px;
+  margin-top: 50px;
 }
 
 .card2 {
-  margin: 3px;
+  margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 800px;
+  max-width: 500px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  transition: all .5s;
+}
+.card2:hover {
+  border-color: #ff71ce;
 }
 
-.card2:hover {
-  border-color: #01cdfe;
+header2 {
+  text-align: center;
+  background: url('images/desk1mb.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+header2 {
+  line-height: 1.5;
+}
+header2 .profile-image {
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
 }
