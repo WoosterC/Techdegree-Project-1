@@ -205,7 +205,7 @@ a.social:hover {
 .card-title {
   text-align: center;
   border: solid black 3px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 50px;
 }
 
@@ -223,48 +223,20 @@ a.social:hover {
   border-color: #ff71ce;
 }
 
-header3 {
+.hobbies-header {
   text-align: center;
   background: url('images/desk1mb.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header3 {
-  line-height: 1.5;
-}
-header3 .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header3 .profile-image:hover {
-  transform: scale(1.6) rotate(720deg);
-}
 
-header2 {
+.resume-header {
   text-align: center;
   background: url('images/printed_circuit_1mb.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
-}
-header2 {
-  line-height: 1.5;
-}
-header2 .profile-image {
-  margin-top: 50px;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header2 .profile-image:hover {
-  transform: scale(1.6) rotate(720deg);
 }
 
 .hobbies-image {
@@ -301,4 +273,11 @@ header2 .profile-image:hover {
 }
 .card3:hover {
   border-color: #01cdfe;
+}
+
+.card-title2 {
+  text-align: center;
+  border: solid black 3px;
+  border-radius: 15px;
+  margin-top: 50px;
 }
