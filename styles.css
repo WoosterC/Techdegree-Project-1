@@ -70,14 +70,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 7px solid rgb(0, 0, 0);
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.6) rotate(720deg);
+  transform: scale(1.6) rotate(360deg);
 }
 .tag {
-  background-color: #ffffff;
+  background-color: #59b4ff;
   color: rgb(0, 0, 0);
   padding: 10px;
   border-radius: 5px;
